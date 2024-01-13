@@ -1,0 +1,65 @@
+html{
+  scroll-behavior: smooth;
+}
+.navBar{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+  .button{
+    border: 1px solid gray; 
+    text-align: center;
+    padding: 20px;
+    width: 12%;
+    transition: 0.5s ease-out;
+  }
+  .button:hover{
+    background-color: gray;
+    transform: scale(1.5);
+  }
+  #line{
+    width: 100%; 
+    display: block; 
+    height: 3px; 
+    background-color: gray;
+  }
+  .info{
+    height: 100vh;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+  }
+  .image{
+    width: auto; 
+    height: auto;
+  }
+  #paragraph{
+    width: 50%; 
+    padding: 10%;
+  }
+  .projects{
+    display: flex;
+    justify-content: space-between; 
+  }
+  .card{
+    display: flex; 
+    flex-direction: column;
+    border: 2px solid black; 
+    width: 25%; 
+  }
+  .faq{
+    display: flex;
+    justify-content: center;
+  }
+  .question{
+    padding: 10px; 
+    border: 2px solid black;
+  }
+  .hidden{
+    display: none; 
+  }
+  .answer{
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+  }
